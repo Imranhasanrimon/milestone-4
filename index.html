@@ -55,6 +55,17 @@
             </div>
         </nav>
     </footer>
+    <!-- Open the modal using ID.showModal() method -->
+    <button class="btn block mx-auto my-12" onclick="my_modal_2.showModal()">open modal</button>
+    <dialog id="my_modal_2" class="modal">
+        <div class="modal-box">
+            <h3 class="text-lg font-bold">Hello!</h3>
+            <p class="py-4">Press ESC key or click outside to close</p>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
     <footer class="footer footer-center bg-primary text-primary-content p-10">
         <aside>
             <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
