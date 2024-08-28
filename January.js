@@ -11,5 +11,5 @@
 // var apple = parseFloat('23.25')
 // console.log(apple.toFixed(5));
 var mangoe = 0;
-var taka = 200;
+var taka = -200;
 console.log(taka / mangoe);
