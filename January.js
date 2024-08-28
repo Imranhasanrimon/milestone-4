@@ -9,4 +9,4 @@
 // console.log(age);
 // var apple = parseInt('23.25')
 var apple = parseFloat('23.25')
-console.log(apple);
+console.log(apple.toFixed(5));
