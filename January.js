@@ -7,5 +7,7 @@ name = 'Rimon'
 var firstNumber = '2.55';
 var int = parseInt(firstNumber);
 var float = parseFloat(firstNumber)
-
-console.log(float);
+float += 3;
+// console.log(float.toFixed(5));
+var variable = 'imran';
+console.log(isNaN(variable));
