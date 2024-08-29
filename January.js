@@ -9,5 +9,6 @@ var int = parseInt(firstNumber);
 var float = parseFloat(firstNumber)
 float += 3;
 // console.log(float.toFixed(5));
-var variable = 'imran';
-console.log(isNaN(variable));
+var variable = true;
+// console.log(isNaN(variable));
+console.log(name + " " + float);
