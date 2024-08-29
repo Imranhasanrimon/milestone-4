@@ -21,3 +21,6 @@ var avg = totalMarks / 5;
 var myNum = 119;
 var reminder = myNum % 5;
 console.log(reminder);
+// task four 
+var a = isNaN(2 - 10);
+console.log(a);
