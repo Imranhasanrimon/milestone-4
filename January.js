@@ -1,26 +1,9 @@
-// task one 
-var fund = 1000;
-var applePerKg = 200;
-var mangoPerKg = 100;
-var remaining = (fund - applePerKg) - mangoPerKg
-// console.log(remaining);
-function myFunc(mango, apple) {
-    console.log(fund - mango - apple);
+// console.log(10 === '10');
+// if else 
+var studyHours = 4;
+if (studyHours >= 7) {
+    console.log('you will get a job very soon');
 }
-// myFunc(300, 400)
-// task two 
-var math = 75.25;
-var bang = 65;
-var eng = 80;
-var phy = 35.45;
-var che = 99.50;
-var totalMarks = math + bang + eng + phy + che;
-var avg = totalMarks / 5;
-// console.log(avg.toFixed(2));
-// task three 
-var myNum = 119;
-var reminder = myNum % 5;
-console.log(reminder);
-// task four 
-var a = isNaN(2 - 10);
-console.log(a);
+else {
+    console.log('you will not get a job');
+}
