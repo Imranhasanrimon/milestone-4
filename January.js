@@ -98,3 +98,21 @@ console.log(value);
 // using ternary operator
 num1 > num2 ? value = num1 * 2 : value = num1 + num2;
 console.log(value);
+
+// task six -----------------------------------------------------------------------------
+let age = 40;
+let ticketPrice = 800;
+let isStudent = false;
+if (age < 10) {
+    ticketPrice = "free";
+
+} else if (age >= 60) {
+    let discount = ticketPrice / 100 * 15;
+    ticketPrice = ticketPrice - discount;
+} else if (isStudent) {
+    let discount = ticketPrice / 100 * 50;
+    ticketPrice = ticketPrice - discount;
+} else {
+    ticketPrice = ticketPrice;
+}
+console.log(ticketPrice);
