@@ -1,6 +1,6 @@
 
 
-// tast one ----------------
+// tast one -----------------------------------------------------------------------------
 let burgerPrice = 400;
 let cokePrice;
 
@@ -14,7 +14,7 @@ else {
 }
 
 
-// task two --------------
+// task two -----------------------------------------------------------------------------
 let weight = 90;
 let heightInch = 67;
 let heightMeter = heightInch * 0.0254;
@@ -37,8 +37,8 @@ if (bmi < 18.5) {
     }
 }
 
-// task three --------------
-let marks = 69;
+// task three -----------------------------------------------------------------------------
+let marks = 59;
 if (marks < 60) {
     console.log('F');
 } else {
@@ -60,4 +60,27 @@ if (marks < 60) {
             }
         }
     }
+}
+
+// task four -----------------------------------------------------------------------------
+let myResult = 80;
+let friendResult = 39;
+if (myResult >= 80) {
+    if (friendResult < 40) {
+        console.log('block your friend');
+    } else {
+        if (friendResult < 60) {
+            console.log('unseen message');
+        } else {
+            if (friendResult < 80) {
+                console.log('good luck next time');
+            }
+            else {
+                console.log('go for a lunch');
+            }
+        }
+    }
+
+} else {
+    console.log('go to home and sleep and act sad');
 }
