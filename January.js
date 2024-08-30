@@ -84,3 +84,17 @@ if (myResult >= 80) {
 } else {
     console.log('go to home and sleep and act sad');
 }
+
+// task five -----------------------------------------------------------------------------
+let num1 = 500;
+let num2 = 400;
+let value;
+if (num1 > num2) {
+    value = num1 * 2;
+} else {
+    value = num1 + num2;
+}
+console.log(value);
+// using ternary operator
+num1 > num2 ? value = num1 * 2 : value = num1 + num2;
+console.log(value);
