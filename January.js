@@ -1,21 +1,32 @@
-var num = 10;
-if (num > 15) {
-    console.log("Greater than 15");
-} else if (num > 5) {
-    console.log("Greater than 5 but less than or equal to 15");
-} else {
-    console.log("Less than or equal to 5");
-}
-let x = 5; if (x < 10) { x = x + 3; } else { x = x - 2; } console.log(x)
 
 
-// free drinks 
+// tast one ----------------
 let burgerPrice = 400;
+let cokePrice;
+
 if (burgerPrice >= 500) {
-    let coke = 'free'
-    console.log(coke);
+    cokePrice = 'free'
+    console.log(cokePrice);
 }
 else {
-    coke = 30;
-    console.log(coke);
+    cokePrice = 30;
+    console.log(cokePrice);
+}
+
+
+// task two --------------
+let weight = 90;
+let heightInch = 67;
+let heightMeter = heightInch * 0.0254;
+let bmi = weight / heightMeter ** 2;
+console.log('Your BMI ' + bmi.toFixed(2));
+if (bmi < 18.5) {
+    console.log('underweight');
+} else {
+    if (bmi < 24.9) {
+        console.log('normal');
+    }
+    else {
+        console.log('overweight');
+    }
 }
