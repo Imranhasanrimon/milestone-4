@@ -13,3 +13,5 @@ if (bmi < 18.5) {
 } else if (bmi >= 25 && bmi <= 29.9) {
     console.log('overweight');
 } else { console.log('obese'); }
+
+
