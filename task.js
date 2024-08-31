@@ -12,3 +12,9 @@ destinations.push('Kuakata', 'Sundarban')
 destinations.pop()
 console.log(destinations);
 console.log('second is done_________________________');
+
+//task three _____________________________________
+const books = ['Master Your Emotions', 'Eat That Frog', 'Animal Firm', 'Javascript']
+let message = `${books.includes('Javascript')}, the mentioned book is included`
+console.log(message);
+console.log('third is done_________________________');
