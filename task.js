@@ -32,3 +32,7 @@ console.log(Array.isArray(luckyNumbers));
 console.log('fourth is done_________________________');
 
 //task five______________________________________
+const dormitories = ['al amin adil', 'prottoy vila', 'Purnima', 'motimohol'];
+const dormsInBogura = ['zora chattrabas', 'Saikat']
+const allDorms = dormitories.concat(dormsInBogura)
+console.log(allDorms);
