@@ -26,5 +26,5 @@ while (num <= 10) {
     console.log(num);
     sum += num;
     console.log('sum:', sum);
-    num++
+    num += 3
 }
