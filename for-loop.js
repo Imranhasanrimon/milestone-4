@@ -6,11 +6,11 @@
 // }
 
 
-const number = 7;
-if (number < 6) {
-    console.log('small number');
-}
-console.log('big num');
+// const number = 7;
+// if (number < 6) {
+//     console.log('small number');
+// }
+// console.log('big num');
 
 //while loop____________________________
 // let num = 1;
@@ -19,12 +19,12 @@ console.log('big num');
 //     num++
 // }
 
-// sum 
-let num = 1;
-let sum = 0;
-while (num <= 10) {
-    console.log(num);
-    sum += num;
-    console.log('sum:', sum);
-    num += 3
-}
+// sum
+// let num = 1;
+// let sum = 0;
+// while (num <= 10) {
+//     console.log(num);
+//     sum += num;
+//     console.log('sum:', sum);
+//     num += 3
+// }
