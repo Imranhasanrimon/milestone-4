@@ -28,3 +28,8 @@
 //     console.log('sum:', sum);
 //     num += 3
 // }
+
+// for loop ______________________________________
+for (let num = 0; num < 5; num++) {
+    console.log(num);
+}
