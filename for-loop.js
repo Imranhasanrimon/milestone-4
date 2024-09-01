@@ -13,8 +13,18 @@ if (number < 6) {
 console.log('big num');
 
 //while loop____________________________
-let num = 0;
-while (num < 5) {
-    console.log('loooping.....', num);
+// let num = 1;
+// while (num < 5) {
+//     console.log('loooping.....', num);
+//     num++
+// }
+
+// sum 
+let num = 1;
+let sum = 0;
+while (num <= 10) {
+    console.log(num);
+    sum += num;
+    console.log('sum:', sum);
     num++
 }
