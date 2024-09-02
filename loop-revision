@@ -30,12 +30,10 @@
 //     console.log(sum);
 // }
 
-// decremental approach________
-let sum = 0;
+// Break and continue;________
 for (let x = 1; x <= 20; x++) {
     if (x % 3 === 0) {
-        console.log(x);
-        sum += x;
-        console.log('total: ', sum);
+        continue;
     }
+    console.log(x);
 }
