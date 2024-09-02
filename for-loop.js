@@ -1,4 +1,4 @@
-//for loop____________________________
+// for loop____________________________
 // const numbers = [21, 534, 54, 26, 80, 63];
 // for (const num of numbers) {
 //     console.log(num);
@@ -12,7 +12,7 @@
 // }
 // console.log('big num');
 
-//while loop____________________________
+// while loop____________________________
 // let num = 1;
 // while (num < 5) {
 //     console.log('loooping.....', num);
