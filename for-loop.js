@@ -37,7 +37,7 @@
 // for (let i = 1; i <= 10; i++) {
 //     console.log(i);
 // }
-// getting odd numbers 
+// getting odd numbers
 // let sum = 0;
 
 // for (let i = 11; i <= 20; i++) {
@@ -60,8 +60,28 @@
 // }
 
 // Decremental while loop __________________
-let i = 10;
-while (i > 0) {
+// let i = 10;
+// while (i > 0) {
+//     console.log(i);
+//     i--
+// }
+
+// // Odd Number ______________
+// for (let i = 1; i < 20; i++) {
+//     if (i > 10) {
+//         break;
+//     }
+//     console.log(i);
+
+// }
+// const array = [1, 2, 3, 4, 5, 6, 7];
+
+// for (let i = 1; i < array.length; i++) {
+//     if (i == 5) {
+//         continue;
+//     }
+//     console.log(array[i]);
+// }
+for (let i = 0; i < 5; i += 3) {
     console.log(i);
-    i--
 }
