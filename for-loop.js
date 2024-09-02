@@ -38,7 +38,7 @@
 //     console.log(i);
 // }
 // getting odd numbers 
-let sum = 0;
+// let sum = 0;
 
 // for (let i = 11; i <= 20; i++) {
 //     console.log(i);
@@ -46,10 +46,22 @@ let sum = 0;
 // }
 // console.log(sum);
 
-let i = 11;
-while (i <= 20) {
+// let i = 11;
+// while (i <= 20) {
+//     console.log(i);
+//     sum = sum + i;
+//     i++;
+// }
+// console.log(sum);
+
+// Decremental for loop __________________
+// for (let i = 20; i >= 11; i--) {
+//     console.log(i);
+// }
+
+// Decremental while loop __________________
+let i = 10;
+while (i > 0) {
     console.log(i);
-    sum = sum + i;
-    i++;
+    i--
 }
-console.log(sum);
