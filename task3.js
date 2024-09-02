@@ -11,8 +11,27 @@
 //     }
 // }
 
-for (let x = 78; x <= 98; x++) {
+// for (let x = 78; x <= 98; x++) {
+//     if (x % 2 === 0) {
+//         console.log(x);
+//     }
+// }
+
+//task three-----------
+// let ftotal = 0;
+// for (let x = 91; x <= 129; x++) {
+//     if (x % 2 !== 0) {
+//         ftotal += x;
+//     }
+// }
+// console.log('total:', ftotal);
+
+let fsum = 0;
+for (let x = 51; x <= 85; x++) {
     if (x % 2 === 0) {
-        console.log(x);
+        fsum += x;
     }
 }
+console.log('Sum:', fsum);
+
+
