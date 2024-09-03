@@ -59,17 +59,17 @@ console.log('_________end__________');
 
 //______________Js string_______________
 //task one--------
-// let text = 'this is an apple in a box';
-// let count = 0;
-// for (let i = 0; i < text.length; i++) {
-//     if (text[i] === 'a') {
-//         count++;
-//     }
-// }
-// console.log(count);
-// //or
-// let count2 = text.split('a').length - 1;
-// console.log(count2);
+let text = 'this is an apple in a box';
+let count = 0;
+for (let i = 0; i < text.length; i++) {
+    if (text[i] === 'a') {
+        count++;
+    }
+}
+console.log(count);
+//or
+let count2 = text.split('a').length - 1;
+console.log(count2);
 
 //task two--------
 let text2 = 'I\'d like to get a job in American software company'
