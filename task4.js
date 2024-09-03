@@ -8,3 +8,11 @@ const colors = {
 }
 console.log(colors['golden rod']);
 
+//task two--------
+const car = {
+    make: 'toyota',
+    model: 'corolla',
+    year: 2020
+}
+car['passenger capacity'] = 5;
+console.log(car);
