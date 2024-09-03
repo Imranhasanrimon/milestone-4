@@ -16,3 +16,15 @@ const car = {
 }
 car['passenger capacity'] = 5;
 console.log(car);
+
+//task three--------
+const student = {
+    name: 'Hamim Sakib',
+    id: 5421,
+    physics: {
+        subject: 'HSC physics',
+        author: 'shahjahan Tapan',
+        marks: 30
+    }
+}
+console.log(student.physics.marks);
