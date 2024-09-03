@@ -59,17 +59,17 @@ console.log('_________end__________');
 
 //______________Js string_______________
 //task one--------
-let text = 'this is an apple in a box';
-let count = 0;
-for (let i = 0; i < text.length; i++) {
-    if (text[i] === 'a') {
-        count++;
-    }
-}
-console.log(count);
-//or
-let count2 = text.split('a').length - 1;
-console.log(count2);
+// let text = 'this is an apple in a box';
+// let count = 0;
+// for (let i = 0; i < text.length; i++) {
+//     if (text[i] === 'a') {
+//         count++;
+//     }
+// }
+// console.log(count);
+// //or
+// let count2 = text.split('a').length - 1;
+// console.log(count2);
 
 //task two--------
 let text2 = 'I\'d like to get a job in American software company'
@@ -99,3 +99,14 @@ let task4 = 'x is not X, and y isn\'t Y'
 let replace = task4.replace(/x/g, 'y').replace(/X/g, 'Y').replace(/y/g, 'x').replace(/Y/g, 'X')
 console.log(task4);
 console.log(replace);
+
+//task five--------
+let task5 = "I will be able to perform well";
+let word = task5.split(' ')
+let capitalized = '';
+for (let i = 0; i < word.length; i++) {
+    capitalized += word[i].charAt(0).toUpperCase() + word[i].slice(1) + ' '
+}
+console.log(capitalized);
+
+
