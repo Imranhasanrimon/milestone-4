@@ -28,3 +28,17 @@ const student = {
     }
 }
 console.log(student.physics.marks);
+
+//task four--------
+let student2 = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+let propNumber = [];
+for (let prop in student2) {
+    propNumber.push(prop)
+}
+console.log(propNumber.length);
+console.log(Object.keys(student2).length);
