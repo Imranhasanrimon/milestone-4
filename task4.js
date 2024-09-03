@@ -70,3 +70,32 @@ console.log(count);
 //or
 let count2 = text.split('a').length - 1;
 console.log(count2);
+
+//task two--------
+let text2 = 'I\'d like to get a job in American software company'
+let aA = 0;
+for (let i = 0; i < text2.length; i++) {
+    if (text2[i] === 'a' || text2[i] === 'A') {
+        aA++;
+    }
+}
+console.log(aA);
+
+//task three--------
+const comment = 'full stack web development is my dream from child';
+
+
+
+
+
+
+
+
+
+
+
+//task four--------
+let task4 = 'x is not X, and y isn\'t Y'
+let replace = task4.replace(/x/g, 'y').replace(/X/g, 'Y').replace(/y/g, 'x').replace(/Y/g, 'X')
+console.log(task4);
+console.log(replace);
