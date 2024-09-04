@@ -20,7 +20,7 @@ for (let i = colors.length - 1; i >= 0; i--) {
 }
 console.log(colorsReversed3);
 
-//task one_____________
+//task two_____________
 const numbers = [12, 98, 5, 41, 23, 78, 46];
 const evenNum = [];
 for (let number of numbers) {
@@ -29,3 +29,11 @@ for (let number of numbers) {
     }
 }
 console.log(evenNum);
+
+//task three__________
+const chondo = ['Tom', 'Tim', 'Tin', 'Tik'];
+let chondoConcat = '';
+for (let eachChondo of chondo) {
+    chondoConcat += eachChondo;
+}
+console.log(chondoConcat);
