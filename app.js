@@ -19,7 +19,14 @@
 // console.log(colors);
 // console.log(sortedColors);
 //++++++++++++++Array Methods++++++++++++++
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits);
-const string = fruits.toString()
-console.log(string.split(','));
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits);
+// const string = fruits.toString()
+// console.log(string.split(','));
+const arr = [1, 2, 3, 4, 5, 6, 7];
+let sum = 0;
+for (let element of arr) {
+    sum += element
+}
+
+console.log(sum);
