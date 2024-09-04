@@ -46,16 +46,27 @@
 //     }
 // }
 // console.log(totalVowels);
-const productPrice = {
-    banan: 250,
-    orange: 200,
-    lemon: 30,
-    egg: 48,
-    chickpeas: 85,
-    paste: 7,
+// const productPrice = {
+//     banan: 250,
+//     orange: 200,
+//     lemon: 30,
+//     egg: 48,
+//     chickpeas: 85,
+//     paste: 7,
+// }
+// let totalPrice = 0;
+// for (let prop in productPrice) {
+//     totalPrice += productPrice[prop];
+// }
+// console.log(totalPrice);
+for (let i = 1; i <= 100; i++) {
+    if ((i % 3 === 0) && (i % 5 === 0)) {
+        console.log('FizzBuzz');
+    } else if (i % 3 === 0) {
+        console.log('fizz');
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else {
+        console.log(i);
+    }
 }
-let totalPrice = 0;
-for (let prop in productPrice) {
-    totalPrice += productPrice[prop];
-}
-console.log(totalPrice);
