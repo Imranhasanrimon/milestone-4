@@ -14,7 +14,12 @@
 // }
 // console.log(arr);
 // console.log(arrReversed);
-const colors = ['red', 'blue', 'areen', 'yellow', 'orange'];
-const sortedColors = colors.sort();
-console.log(colors);
-console.log(sortedColors);
+// const colors = ['red', 'blue', 'areen', 'yellow', 'orange'];
+// const sortedColors = colors.sort();
+// console.log(colors);
+// console.log(sortedColors);
+//++++++++++++++Array Methods++++++++++++++
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits);
+const string = fruits.toString()
+console.log(string.split(','));
