@@ -20,3 +20,12 @@ for (let i = colors.length - 1; i >= 0; i--) {
 }
 console.log(colorsReversed3);
 
+//task one_____________
+const numbers = [12, 98, 5, 41, 23, 78, 46];
+const evenNum = [];
+for (let number of numbers) {
+    if (number % 2 === 0) {
+        evenNum.push(number)
+    }
+}
+console.log(evenNum);
