@@ -29,11 +29,33 @@
 //     sum += element
 // }
 // console.log(sum);
-const arr = [1, 2, 30, 14, 35, 6, 7];
-let max = 0;
-for (let element of arr) {
-    if (element > max) {
-        max = element;
-    }
+// const arr = [1, 2, 30, 14, 35, 6, 7];
+// let max = 0;
+// for (let element of arr) {
+//     if (element > max) {
+//         max = element;
+//     }
+// }
+// console.log(max);
+// const text = 'how many vowels are existed here aAAA';
+// const vowels = ['a', 'e', 'i', 'o', 'u'];
+// let totalVowels = 0;
+// for (let char of text.toLowerCase()) {
+//     if (vowels.includes(char)) {
+//         totalVowels++;
+//     }
+// }
+// console.log(totalVowels);
+const productPrice = {
+    banan: 250,
+    orange: 200,
+    lemon: 30,
+    egg: 48,
+    chickpeas: 85,
+    paste: 7,
 }
-console.log(max);
+let totalPrice = 0;
+for (let prop in productPrice) {
+    totalPrice += productPrice[prop];
+}
+console.log(totalPrice);
