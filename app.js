@@ -23,10 +23,17 @@
 // console.log(fruits);
 // const string = fruits.toString()
 // console.log(string.split(','));
-const arr = [1, 2, 3, 4, 5, 6, 7];
-let sum = 0;
+// const arr = [1, 2, 3, 4, 5, 6, 7];
+// let sum = 0;
+// for (let element of arr) {
+//     sum += element
+// }
+// console.log(sum);
+const arr = [1, 2, 30, 14, 35, 6, 7];
+let max = 0;
 for (let element of arr) {
-    sum += element
+    if (element > max) {
+        max = element;
+    }
 }
-
-console.log(sum);
+console.log(max);
