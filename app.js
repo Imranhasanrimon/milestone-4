@@ -71,11 +71,30 @@
 //     }
 // }
 
-const arr = [55, 46, 84, 55, 86, 46,]
-let count = 0;
-for (let element of arr) {
-    if (element === 55) {
-        count++;
-    }
+// const arr = [55, 46, 84, 55, 86, 46, 55, 55, 5, 5,]
+// let count = 0;
+// for (let element of arr) {
+//     if (element === 5) {
+//         count++;
+//     }
+// }
+// console.log(count);
+//++++++++++problem 9+++++++++++
+const productPrice = {
+    banan: 250,
+    orange: 200,
+    lemon: 30,
+    egg: 48,
+    chickpeas: 85,
+    paste: 7,
 }
-console.log(count);
+console.log(productPrice.hasOwnProperty('paste'));
+//++++++++++problem 10+++++++++++
+const text = 'capitalized each word in a string';
+const textArr = text.split(' ')
+let textCapitalized = '';
+for (let word of textArr) {
+    textCapitalized += word.charAt(0).toUpperCase() + word.slice(1) + ' ';
+}
+console.log(text);
+console.log(textCapitalized);
