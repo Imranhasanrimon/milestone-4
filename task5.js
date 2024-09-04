@@ -37,3 +37,13 @@ for (let eachChondo of chondo) {
     chondoConcat += eachChondo;
 }
 console.log(chondoConcat);
+
+//task four__________
+const statement = 'I am a hard working person';
+const statementArr = statement.split(' ');
+let statementReversed = '';
+for (let i = statementArr.length - 1; i >= 0; i--) {
+    const lastWord = statementArr[i];
+    statementReversed += lastWord + ' '
+}
+console.log(statementReversed);
