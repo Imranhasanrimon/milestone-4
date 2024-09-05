@@ -261,5 +261,4 @@ for (let i in obj1) {
 for (let i in obj2) {
     newObj[i] = obj2[i]
 }
-console.log(obj1);
 console.log(newObj);
