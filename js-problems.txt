@@ -30,3 +30,9 @@ Write a program that counts the occurrences of each character in a given string 
 Write a program that finds and prints the smallest number in an array of numbers.
 15. Sum of Even Numbers in an Array:
 Write a program that calculates the sum of all even numbers in an array.
+16. Sum of Array Elements Using Loop
+Write a loop to calculate the sum of all numbers in an array
+17. Find the Largest Element in an Array
+Write a loop to find the largest number in an array.
+Count Occurrences of a Specific Element
+18. Write a loop to count how many times a specific number appears in an array.

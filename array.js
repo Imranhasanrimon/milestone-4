@@ -16,3 +16,14 @@ for (let i of newArray2) {
     }
 }
 console.log(largestElement);
+
+//number-----------3
+const Array = [1, 2, 3, 1, 4, 1, 1, 1, 5, 3];
+const target = Array[2];
+let count = 0;
+for (let i of Array) {
+    if (i === target) {
+        count++;
+    }
+}
+console.log(count);
