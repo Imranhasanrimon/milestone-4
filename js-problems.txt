@@ -77,3 +77,9 @@ Write a loop to count how many properties are in a given object.
 
 26. Merge Two Objects
 Write code to merge the properties of two objects into one new object.
+
+27. Remove All Negative Numbers from an Array
+Write a loop to remove all negative numbers from an array and return a new array with only non-negative numbers.
+
+28. Find the Second Largest Element in an Array
+Write a loop to find the second largest number in an array.

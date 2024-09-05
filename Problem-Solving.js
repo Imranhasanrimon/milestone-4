@@ -262,3 +262,22 @@ for (let i in obj2) {
     newObj[i] = obj2[i]
 }
 console.log(newObj);
+
+/*                   Random  Problems                   */
+//number-----------27
+const arrNum = [-1, 2, -3, 4, -5, 1, 5, 0];
+const posNum = [];
+for (let i of arrNum) {
+    if (i > 0) {
+        posNum.push(i)
+    }
+}
+console.log(posNum);
+
+//number-----------28
+const arr5 = [20, 10, 5, 15, 100];
+for (let i of arr5) {
+
+}
+
+
