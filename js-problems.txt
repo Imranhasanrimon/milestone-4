@@ -38,3 +38,7 @@ Write a loop to find the largest number in an array.
 Write a loop to count how many times a specific number appears in an array.
 19. Check if an Array Contains a Specific Element
 Write a loop to check if an array contains a specific number.
+20. Copy Array Elements to Another Array
+Write a loop to copy the elements of one array into another array.
+21. Remove Spaces from a String
+Write a loop to remove all spaces from a given string.

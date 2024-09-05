@@ -1,4 +1,5 @@
 // ______________PROBLEM SOLVING_______________ 
+/*              Array Related Problems                   */
 //number-----------1
 const newArray = [1, 3, 8, 2, 6];
 let sum = 0;
@@ -33,7 +34,26 @@ const newArray3 = [1, 3, 8, 2, 6];
 for (let i of newArray3) {
     if (i === 8) {
         console.log(true);
-        break
+        break;
     }
 }
 
+//number-----------5
+const newArray4 = [1, 3, 8, 2, 6];
+const finalResult = [];
+for (let i of newArray4) {
+    finalResult.push(i)
+}
+console.log(finalResult);
+
+
+/*              Array Related Problems                   */
+//number-----------1
+const text = 'Imran Hasan Rimon';
+let newText = '';
+for (let i of text) {
+    if (i !== ' ') {
+        newText += i;
+    }
+}
+console.log(newText);
