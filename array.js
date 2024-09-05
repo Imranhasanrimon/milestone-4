@@ -27,3 +27,13 @@ for (let i of Array) {
     }
 }
 console.log(count);
+
+//number-----------4
+const newArray3 = [1, 3, 8, 2, 6];
+for (let i of newArray3) {
+    if (i === 8) {
+        console.log(true);
+        break
+    }
+}
+
