@@ -42,3 +42,9 @@ Write a loop to check if an array contains a specific number.
 Write a loop to copy the elements of one array into another array.
 21. Remove Spaces from a String
 Write a loop to remove all spaces from a given string.
+22. Find the Most Frequent Character
+Write a loop to find the character that appears the most in a string.
+23. Replace All Digits with X
+Write a loop to replace all digits in a string with the character 'X'.
+24. Find Longest Word in a String
+Write a loop to find the longest word in a string.
