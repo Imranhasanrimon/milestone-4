@@ -165,14 +165,3 @@
 
 
 
-let text = "amar sona tumi so";
-let vowels = ['a', 'e', 'i', 'o', 'u'];
-let containsAllVowels = true;
-
-for (let vowel of vowels) {
-    if (text.indexOf(vowel) === -1) {
-        containsAllVowels = false;
-        break;
-    }
-}
-console.log(containsAllVowels);
