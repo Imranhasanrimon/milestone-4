@@ -48,3 +48,5 @@ Write a loop to find the character that appears the most in a string.
 Write a loop to replace all digits in a string with the character 'X'.
 24. Find Longest Word in a String
 Write a loop to find the longest word in a string.
+25. Count Properties in an Object
+Write a loop to count how many properties are in a given object.

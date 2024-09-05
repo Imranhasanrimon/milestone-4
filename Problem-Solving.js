@@ -224,7 +224,6 @@ for (let i of inp) {
     } else { outp += 'X' }
 }
 console.log(outp);
-console.log('___________________________________');
 
 //number-----------24
 const inp2 = "Web development  is fun";
@@ -238,3 +237,29 @@ for (let i of inp2Arr) {
     }
 }
 console.log(outp2);
+
+/*              Object Related Problems                   */
+//number-----------25
+const obj = {
+    name: 'Abul',
+    age: 50,
+    city: 'Paris'
+}
+let propNum = 0;
+for (let i in obj) {
+    propNum++;
+}
+console.log(propNum);
+
+//number-----------26
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+const newObj = {};
+for (let i in obj1) {
+    newObj[i] = obj1[i]
+}
+for (let i in obj2) {
+    newObj[i] = obj2[i]
+}
+console.log(obj1);
+console.log(newObj);
