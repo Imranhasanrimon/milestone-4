@@ -60,7 +60,7 @@
 // }
 // console.log(totalPrice);
 // for (let i = 1; i <= 100; i++) {
-//     if ((i % 3 === 0) && (i % 5 === 0)) {
+//     if ((i % 3 === 0) || (i % 5 === 0)) {
 //         console.log('FizzBuzz');
 //     } else if (i % 3 === 0) {
 //         console.log('fizz');
@@ -80,21 +80,100 @@
 // }
 // console.log(count);
 //++++++++++problem 9+++++++++++
-const productPrice = {
-    banan: 250,
-    orange: 200,
-    lemon: 30,
-    egg: 48,
-    chickpeas: 85,
-    paste: 7,
+// const productPrice = {
+//     banan: 250,
+//     orange: 200,
+//     lemon: 30,
+//     egg: 48,
+//     chickpeas: 85,
+//     paste: 7,
+// }
+// console.log(productPrice.hasOwnProperty('paste'));
+// //++++++++++problem 10+++++++++++
+// const text = 'capitalized each word in a string';
+// const textArr = text.split(' ')
+// let textCapitalized = '';
+// for (let word of textArr) {
+//     textCapitalized += word.charAt(0).toUpperCase() + word.slice(1) + ' ';
+// }
+// console.log(text);
+// console.log(textCapitalized);
+
+
+
+//_________Five More________
+//number one---------
+// const arr = [10, 20, 30];
+// let arrTotal = 0;
+// for (let i of arr) {
+//     arrTotal += i;
+// }
+// console.log(arrTotal / arr.length);
+
+// //number two---------solved
+// const num = [55, 46, 84, 55, 86, 46, 55, 55, 5, 5,];
+// let uniqueNum = [];
+// for (let element of num) {
+//     if (!uniqueNum.includes(element)) {
+//         uniqueNum.push(element)
+//     }
+// }
+// console.log(num);
+// console.log(uniqueNum);
+
+// //number three ----------
+// const text = 'capitalized each word in a string';
+// const occurrence = {};
+// for (let i of text) {
+//     if (occurrence[i]) {
+//         occurrence[i]++;
+//     } else { occurrence[i] = 1 }
+// }
+// console.log(occurrence);
+
+// //number four-------
+// const numbers = [-550, 46, 84, -55, 86, -46, 55, 55, 5, 5,];
+// let smallNumber = numbers[0];
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] < smallNumber) {
+//         smallNumber = numbers[i];
+//     }
+// }
+// console.log(smallNumber);
+
+// //number five-------
+// const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let evenNumber = 0;
+// for (let i of numbers2) {
+//     if (i % 2 === 0) {
+//         evenNumber += i;
+//     }
+// }
+// console.log(evenNumber);
+
+//________CONCEPTUAL SESSION_________
+// const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const numbers3 = [5, 6, 7, 8, 9];
+// const numbers4 = [5, 6, 7, 8, 9];
+// const numbers5 = [5, 6, 7, 8, 9];
+// console.log(numbers2.concat(numbers2));
+
+// const text = "full stack developer"
+// console.log(text.indexOf('x'));
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.join(','));
+
+
+
+
+let text = "amar sona tumi so";
+let vowels = ['a', 'e', 'i', 'o', 'u'];
+let containsAllVowels = true;
+
+for (let vowel of vowels) {
+    if (text.indexOf(vowel) === -1) {
+        containsAllVowels = false;
+        break;
+    }
 }
-console.log(productPrice.hasOwnProperty('paste'));
-//++++++++++problem 10+++++++++++
-const text = 'capitalized each word in a string';
-const textArr = text.split(' ')
-let textCapitalized = '';
-for (let word of textArr) {
-    textCapitalized += word.charAt(0).toUpperCase() + word.slice(1) + ' ';
-}
-console.log(text);
-console.log(textCapitalized);
+console.log(containsAllVowels);

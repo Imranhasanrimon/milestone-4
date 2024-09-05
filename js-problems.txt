@@ -1,0 +1,32 @@
+________Based on variable, string, array object, loop, condition_______
+
+1. Sum of Array Elements:
+Write a program that takes an array of numbers and calculates the sum of all elements in the array.
+2. Find the Largest Number:
+Given an array of numbers, write a program to find and print the largest number in the array.
+3. Count Vowels in a String:
+Write a program that counts how many vowels (a, e, i, o, u) are present in a given string.
+4. Palindrome Check:
+Write a program that checks whether a given string is a palindrome (reads the same forward and backward).
+5. Object Property Sum:
+Create an object with properties representing the prices of different items. Write a program to calculate the total cost of all items.
+6. FizzBuzz:
+Write a program that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number, and for multiples of 5, print "Buzz". For numbers that are multiples of both 3 and 5, print "FizzBuzz".
+7. Reverse an Array:
+Write a program that reverses the elements in an array without using the built-in reverse method.
+8. Count Occurrences:
+Write a program that counts the number of times a specific element appears in an array.
+9. Check if an Object Contains a Key:
+Given an object and a key, write a program to check if the object contains that key.
+10. Capitalize Each Word in a String:
+Write a program that capitalizes the first letter of each word in a given string.
+11. Find the Average of Array Elements:
+Write a program that calculates the average value of numbers in an array.
+12. Remove Duplicates from an Array:
+Given an array with duplicate elements, write a program to remove the duplicates and return a new array with only unique elements.
+13. Count Characters in a String:
+Write a program that counts the occurrences of each character in a given string and prints the results.
+14. Find the Smallest Number in an Array:
+Write a program that finds and prints the smallest number in an array of numbers.
+15. Sum of Even Numbers in an Array:
+Write a program that calculates the sum of all even numbers in an array.
