@@ -275,9 +275,12 @@ for (let i of arrNum) {
 console.log(posNum);
 
 //number-----------28
-const arr5 = [20, 10, 5, 15, 100];
+const arr5 = [20, 10, 5, 15, 10];
+let highest = 0;
 for (let i of arr5) {
-
+    if (i > highest) {
+        highest = i
+    }
 }
-
+console.log(highest);
 
