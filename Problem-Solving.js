@@ -307,5 +307,3 @@ function count_vowels(str) {
     return count;
 }
 console.log(count_vowels("Hello World"));
-
-//number-----------31

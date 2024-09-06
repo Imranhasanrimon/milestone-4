@@ -226,3 +226,17 @@
 //     }
 //     console.log(w);
 // }
+
+
+//______________module 22________________
+function oddAvg(fullArr) {
+    const oddArr = [];
+    for (let i of fullArr) {
+        if (i % 2 !== 0) {
+            oddArr.push(i)
+        }
+    }
+    return oddArr
+}
+// const fullArr =
+// const result = 
