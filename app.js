@@ -189,18 +189,40 @@
 
 //______________TapaScript Youtube________________
 
-function normalFunc() { //this is usual function
-    console.log('normal function');
-}
-const myFunc = function () {  //this is function as expression
-    console.log('print me');
-    console.log('priinted');
-}
-// myFunc()
+// function normalFunc() { //this is usual function
+//     console.log('normal function');
+// }
 
-const func = () => {  //arrow function
-    console.log('this is an arrow');
-}
-normalFunc();
-myFunc();
-func();
+// const myFunc = function () {  //this is function as expression
+//     console.log('function as expression');
+// }
+
+// const func = () => {  //arrow function
+//     console.log('this is an arrow');
+// }
+
+// normalFunc();
+// myFunc();
+// func();
+
+// function myName(fName, lName) {
+//     let fullName = `my full name is ${fName} ${lName}`;
+//     console.log(fullName);
+//     return fullName
+// }
+// console.log(myName());
+
+// function getMenu() {
+//     console.log('pzza', 'burger');
+// }
+// const result = getMenu();
+// console.log(result);
+
+// let w = 60;
+// while (w <= 100) {
+//     w++;
+//     if ((w % 2) === 0) {
+//         continue;
+//     }
+//     console.log(w);
+// }

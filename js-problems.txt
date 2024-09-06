@@ -81,5 +81,8 @@ Write code to merge the properties of two objects into one new object.
 27. Remove All Negative Numbers from an Array
 Write a loop to remove all negative numbers from an array and return a new array with only non-negative numbers.
 
-28. Find the Second Largest Element in an Array
-Write a loop to find the second largest number in an array.
+______________Function______________
+
+28. Write a function called find_max() which will take an array of integers and return the largest value in that array.
+
+29. Write a function called reverse_string() that takes a string as a parameter and returns the reversed version of the string.

@@ -273,14 +273,17 @@ for (let i of arrNum) {
     }
 }
 console.log(posNum);
-
+console.log('_________________________');
 //number-----------28
-const arr5 = [20, 10, 5, 15, 10];
-let highest = 0;
-for (let i of arr5) {
-    if (i > highest) {
-        highest = i
+function findMax(intArray) {
+    let max = 0;
+    for (let i of intArray) {
+        if (i > max) {
+            max = i;
+        }
     }
+    return max;
 }
-console.log(highest);
+const intArray = [20, 10, 5, 15, 10];
+console.log(findMax(intArray));
 
