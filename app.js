@@ -180,9 +180,9 @@
 // }
 // add(num(5))
 
-function getMenu() {
-    // console.log("Burger, Pizza, Pasta");
-    // return;
-}
-const result = getMenu()
-console.log(result);
+// function getMenu() {
+//     // console.log("Burger, Pizza, Pasta");
+//     // return;
+// }
+// const result = getMenu()
+// console.log(result);
