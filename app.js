@@ -186,3 +186,21 @@
 // }
 // const result = getMenu()
 // console.log(result);
+
+//______________TapaScript Youtube________________
+
+function normalFunc() { //this is usual function
+    console.log('normal function');
+}
+const myFunc = function () {  //this is function as expression
+    console.log('print me');
+    console.log('priinted');
+}
+// myFunc()
+
+const func = () => {  //arrow function
+    console.log('this is an arrow');
+}
+normalFunc();
+myFunc();
+func();
