@@ -29,3 +29,17 @@ function makeAvg(numArray) {
 const numArray = [2, 4, 5, 7];
 const makeAvgResult = makeAvg(numArray);
 console.log(makeAvgResult);
+
+//task-4____________
+function countZero(binaryString) {
+    let count = 0;
+    for (let i of binaryString) {
+        if (i === '0') {
+            count++;
+        }
+    }
+    return count;
+}
+const binaryString = '11001100'
+const countZeroResult = countZero(binaryString);
+console.log(countZeroResult);
