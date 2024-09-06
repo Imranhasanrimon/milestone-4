@@ -163,5 +163,26 @@
 // console.log(fruits.join(','));
 
 
+//______________module 21________________
 
+// function square(number, number2) {
+//     const result = number * number2;
+//     return result;
+// }
+// const man = square(5);
+// console.log(man);
 
+// function num(value) {
+//     return value
+// }
+// function add(number) {
+//     console.log(number + 5);
+// }
+// add(num(5))
+
+function getMenu() {
+    // console.log("Burger, Pizza, Pasta");
+    // return;
+}
+const result = getMenu()
+console.log(result);
