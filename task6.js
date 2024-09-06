@@ -15,3 +15,17 @@ function conditionalMultiplication(number) {
 }
 const conditionalMultiplicationResult = conditionalMultiplication(6);
 console.log(conditionalMultiplicationResult);
+
+//task-3____________
+function makeAvg(numArray) {
+    const size = numArray.length;
+    let total = 0;
+    for (let i of numArray) {
+        total += i;
+    }
+    const avg = total / size;
+    return `size: ${size} total: ${total} avg: ${avg}`;
+}
+const numArray = [2, 4, 5, 7];
+const makeAvgResult = makeAvg(numArray);
+console.log(makeAvgResult);
