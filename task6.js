@@ -43,3 +43,12 @@ function countZero(binaryString) {
 const binaryString = '11001100'
 const countZeroResult = countZero(binaryString);
 console.log(countZeroResult);
+
+//task-5____________
+function oddEven(integer) {
+    if (integer % 2 === 0) {
+        return 'Even'
+    } return 'Odd'
+}
+const oddEvenResult = oddEven(6);
+console.log(oddEvenResult);
