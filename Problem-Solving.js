@@ -273,7 +273,6 @@ for (let i of arrNum) {
     }
 }
 console.log(posNum);
-console.log('_________________________');
 //number-----------28
 function findMax(intArray) {
     let max = 0;
@@ -287,3 +286,26 @@ function findMax(intArray) {
 const intArray = [20, 10, 5, 15, 10];
 console.log(findMax(intArray));
 
+//number-----------29
+function reverseString(string) {
+    const stringArray = string.split('').reverse().join('')
+    return stringArray
+}
+console.log(reverseString('imran hasan'));
+
+//number-----------30
+function count_vowels(str) {
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    let count = 0;
+
+    for (let char of str) {
+        if (vowels.includes(char.toLowerCase())) {
+            count++;
+        }
+    }
+
+    return count;
+}
+console.log(count_vowels("Hello World"));
+
+//number-----------31
