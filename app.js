@@ -261,8 +261,13 @@
 // const result = remDupli(fullArr);
 // console.log(result); 
 
-for (var i = 0; i < 5; i++) {
-    setTimeout(function () {
-        console.log(i);
-    }, 100);
-}
+// for (var i = 0; i < 5; i++) {
+//     setTimeout(function () {
+//         console.log(i);
+//     }, 100);
+// }
+
+const d = new Date();
+console.log(d);
+const D = new Date("2022-03-25");
+console.log(D);
