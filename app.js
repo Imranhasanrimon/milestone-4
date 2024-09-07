@@ -229,17 +229,34 @@
 
 
 //______________module 22________________
-function oddAvg(fullArr) {
-    let oddtotal = 0;
-    let leng = 0;
-    for (let i of fullArr) {
-        if (i % 2 !== 0) {
-            oddtotal += i;
-            leng++
+// function oddAvg(fullArr) {
+//     let oddtotal = 0;
+//     let leng = 0;
+//     for (let i of fullArr) {
+//         if (i % 2 !== 0) {
+//             oddtotal += i;
+//             leng++
+//         }
+//     }
+//     return oddtotal / leng;
+// }
+// const fullArr = [1, 3, 7, 9, 5];
+// const result = oddAvg(fullArr);
+// console.log(result);
+
+
+function remDupli(dupArr) {
+    let singArr = [];
+    for (let i of dupArr) {
+        if (singArr.includes(i)) {
+            continue;
+        } else {
+            singArr.push(i)
         }
     }
-    return oddtotal / leng;
+    return singArr;
 }
-const fullArr = [1, 3, 7, 9, 5];
-const result = oddAvg(fullArr);
+
+const fullArr = ['imran', 'rimon', 'imran', 'iran'];
+const result = remDupli(fullArr);
 console.log(result);
