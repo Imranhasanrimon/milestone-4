@@ -273,13 +273,36 @@
 // console.log(D);
 
 //______________module 23________________
-function maxNum(num1, num2, num3) {
-    if (num1 > num2 && num1 > num3) {
-        return num1;
-    } else if (num2 > num1 && num2 > num3) {
-        return num2
-    } else {
-        return num3
+// function maxNum(num1, num2, num3) {
+//     if (num1 > num2 && num1 > num3) {
+//         return num1;
+//     } else if (num2 > num1 && num2 > num3) {
+//         return num2
+//     } else {
+//         return num3
+//     }
+// }
+// console.log(maxNum(12, 15, 20));
+
+
+// function maxNum(one, two, three) {
+//     let biggestNum = 0;
+//     if (one > biggestNum) {
+//         biggestNum = one;
+//     } else if (two > biggestNum) {
+//         biggestNum = two;
+//     } else (biggestNum = three)
+//     return biggestNum
+// }
+// console.log(maxNum(25, 53, 2));
+function smallNumber(num) {
+    smallNumber = num[0];
+    for (let i of num) {
+        if (i < smallNumber) {
+            smallNumber = i;
+        }
     }
+    return smallNumber
 }
-console.log(maxNum(12, 15, 20));
+const numbers = [12, 9, 50, 41, 23, 78, 46];
+console.log(smallNumber(numbers));
