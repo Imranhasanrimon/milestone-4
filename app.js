@@ -267,7 +267,19 @@
 //     }, 100);
 // }
 
-const d = new Date();
-console.log(d);
-const D = new Date("2022-03-25");
-console.log(D);
+// const d = new Date();
+// console.log(d);
+// const D = new Date("2022-03-25");
+// console.log(D);
+
+//______________module 23________________
+function maxNum(num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+        return num1;
+    } else if (num2 > num1 && num2 > num3) {
+        return num2
+    } else {
+        return num3
+    }
+}
+console.log(maxNum(12, 15, 20));
