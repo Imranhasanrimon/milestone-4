@@ -8,7 +8,7 @@ console.log(toFahrenheit(30));
 
 //task-2____________
 function repCheck(num) {
-    const numArr = [5, 6, 11, 12, 12, 98, 5];
+    const numArr = [5, 6, 11, 12, 12, 98, 5, 'imran'];
     let count = 0;
     for (let i of numArr) {
         if (i === num) {
@@ -18,3 +18,16 @@ function repCheck(num) {
     return count;
 }
 console.log(repCheck(12));
+
+//task-3____________
+function vowelCount(string) {
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    let count = 0;
+    for (let i of string.toLocaleLowerCase()) {
+        if (vowels.includes(i)) {
+            count++
+        }
+    }
+    return count;
+}
+console.log(vowelCount('aeioIIIAu'));
