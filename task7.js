@@ -44,3 +44,7 @@ function longWord(sentece) {
     return longestWord;
 }
 console.log(longWord(' I am learning Programming to become a programmer'));
+
+//task-5____________
+let ranNum = Math.floor(Math.random() * (11)) + 10;
+console.log(ranNum);
