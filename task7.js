@@ -31,3 +31,16 @@ function vowelCount(string) {
     return count;
 }
 console.log(vowelCount('aeioIIIAu'));
+
+//task-4____________
+function longWord(sentece) {
+    const sentArr = sentece.split(' ');
+    let longestWord = ''
+    for (let i of sentArr) {
+        if (i.length > longestWord.length) {
+            longestWord = i;
+        }
+    }
+    return longestWord;
+}
+console.log(longWord(' I am learning Programming to become a programmer'));
