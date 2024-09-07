@@ -245,18 +245,24 @@
 // console.log(result);
 
 
-function remDupli(dupArr) {
-    let singArr = [];
-    for (let i of dupArr) {
-        if (singArr.includes(i)) {
-            continue;
-        } else {
-            singArr.push(i)
-        }
-    }
-    return singArr;
-}
+// function remDupli(dupArr) {
+//     let singArr = [];
+//     for (let i of dupArr) {
+//         if (singArr.includes(i)) {
+//             continue;
+//         } else {
+//             singArr.push(i)
+//         }
+//     }
+//     return singArr;
+// }
 
-const fullArr = ['imran', 'rimon', 'imran', 'iran'];
-const result = remDupli(fullArr);
-console.log(result);
+// const fullArr = ['imran', 'rimon', 'imran', 'iran'];
+// const result = remDupli(fullArr);
+// console.log(result); 
+
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
