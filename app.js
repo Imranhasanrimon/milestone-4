@@ -230,13 +230,16 @@
 
 //______________module 22________________
 function oddAvg(fullArr) {
-    const oddArr = [];
+    let oddtotal = 0;
+    let leng = 0;
     for (let i of fullArr) {
         if (i % 2 !== 0) {
-            oddArr.push(i)
+            oddtotal += i;
+            leng++
         }
     }
-    return oddArr
+    return oddtotal / leng;
 }
-// const fullArr =
-// const result = 
+const fullArr = [1, 3, 7, 9, 5];
+const result = oddAvg(fullArr);
+console.log(result);
