@@ -309,11 +309,15 @@
 
 const phones = [
     { name: 'oppo', price: 18000, color: 'white' },
-    { name: 'iphon', price: 15000, color: 'white' },
+    { name: 'iphon', price: 35000, color: 'white' },
     { name: 'samsung', price: 20000, color: 'white' },
     { name: 'motorolla', price: 30000, color: 'white' },
     { name: 'xiomi', price: 25000, color: 'white' }
 ]
+let chipestPhone = phones[0].price
 for (let i of phones) {
-    console.log(i.price);
+    if (i.price > chipestPhone) {
+        chipestPhone = i.price;
+    }
 }
+console.log(chipestPhone);
