@@ -42,6 +42,26 @@ function deleteInvalds(array) {
 
 }
 const checkArray = [1, 3, NaN, 5, undefined, null, -20];
-console.log(deleteInvalds(checkArray));
+// console.log(deleteInvalds(checkArray));
 
 //PROBLEM - 04__________
+function password(object) {
+
+    if (object.birthYear.toString().length <= 3 || object.birthYear === undefined || object.name === undefined || object.siteName === undefined) {
+        return 'Invalid'
+    }
+
+    const siteName = object.siteName[0].toUpperCase() + object.siteName.slice(1);
+
+    const output = siteName + '#' + object.name + '@' + object.birthYear;
+
+
+    return output
+}
+
+const object = {
+    name: 'kolimuddin',
+    siteName: 'google',
+    birthYear: 1992
+}
+console.log(password(object));
