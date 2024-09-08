@@ -307,17 +307,30 @@
 // const numbers = [12, 9, 50, 41, 23, 78, 46];
 // console.log(smallNumber(numbers));
 
-const phones = [
-    { name: 'oppo', price: 18000, color: 'white' },
-    { name: 'iphon', price: 35000, color: 'white' },
-    { name: 'samsung', price: 20000, color: 'white' },
-    { name: 'motorolla', price: 30000, color: 'white' },
-    { name: 'xiomi', price: 25000, color: 'white' }
+// const phones = [
+//     { name: 'oppo', price: 18000, color: 'white' },
+//     { name: 'iphon', price: 35000, color: 'white' },
+//     { name: 'samsung', price: 20000, color: 'white' },
+//     { name: 'motorolla', price: 30000, color: 'white' },
+//     { name: 'xiomi', price: 25000, color: 'white' }
+// ]
+// let chipestPhone = phones[0].price
+// for (let i of phones) {
+//     if (i.price > chipestPhone) {
+//         chipestPhone = i.price;
+//     }
+// }
+// console.log(chipestPhone);
+
+const products = [
+    { quantity: 2, name: 'shampoo', price: 100 },
+    { quantity: 7, name: 'shirt', price: 200 },
+    { quantity: 3, name: 'shampoo', price: 50 },
+    { quantity: 2, name: 'pant', price: 100 },
 ]
-let chipestPhone = phones[0].price
-for (let i of phones) {
-    if (i.price > chipestPhone) {
-        chipestPhone = i.price;
-    }
+let totalPrice = 0;
+for (let i of products) {
+    totalPrice += i.price * i.quantity
 }
-console.log(chipestPhone);
+console.log(totalPrice);
+console.log(typeof null);
