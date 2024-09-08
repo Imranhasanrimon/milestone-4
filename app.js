@@ -259,7 +259,7 @@
 
 // const fullArr = ['imran', 'rimon', 'imran', 'iran'];
 // const result = remDupli(fullArr);
-// console.log(result); 
+// console.log(result);
 
 // for (var i = 0; i < 5; i++) {
 //     setTimeout(function () {
@@ -322,15 +322,14 @@
 // }
 // console.log(chipestPhone);
 
-const products = [
-    { quantity: 2, name: 'shampoo', price: 100 },
-    { quantity: 7, name: 'shirt', price: 200 },
-    { quantity: 3, name: 'shampoo', price: 50 },
-    { quantity: 2, name: 'pant', price: 100 },
-]
-let totalPrice = 0;
-for (let i of products) {
-    totalPrice += i.price * i.quantity
-}
-console.log(totalPrice);
-console.log(typeof null);
+// const products = [
+//     { quantity: 2, name: 'shampoo', price: 100 },
+//     { quantity: 7, name: 'shirt', price: 200 },
+//     { quantity: 3, name: 'shampoo', price: 50 },
+//     { quantity: 2, name: 'pant', price: 100 },
+// ]
+// let totalPrice = 0;
+// for (let i of products) {
+//     totalPrice += i.price * i.quantity
+// }
+// console.log(totalPrice);
