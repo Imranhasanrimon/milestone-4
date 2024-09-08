@@ -295,14 +295,25 @@
 //     return biggestNum
 // }
 // console.log(maxNum(25, 53, 2));
-function smallNumber(num) {
-    smallNumber = num[0];
-    for (let i of num) {
-        if (i < smallNumber) {
-            smallNumber = i;
-        }
-    }
-    return smallNumber
+// function smallNumber(num) {
+//     smallNumber = num[0];
+//     for (let i of num) {
+//         if (i < smallNumber) {
+//             smallNumber = i;
+//         }
+//     }
+//     return smallNumber
+// }
+// const numbers = [12, 9, 50, 41, 23, 78, 46];
+// console.log(smallNumber(numbers));
+
+const phones = [
+    { name: 'oppo', price: 18000, color: 'white' },
+    { name: 'iphon', price: 15000, color: 'white' },
+    { name: 'samsung', price: 20000, color: 'white' },
+    { name: 'motorolla', price: 30000, color: 'white' },
+    { name: 'xiomi', price: 25000, color: 'white' }
+]
+for (let i of phones) {
+    console.log(i.price);
 }
-const numbers = [12, 9, 50, 41, 23, 78, 46];
-console.log(smallNumber(numbers));
