@@ -25,3 +25,18 @@ function smallFriend(frndArr) {
 }
 console.log(smallFriend(friends));
 
+//task-2____________
+function calculateElectronicsBudget(lap, tab, mob) {
+    const laptop = 35000;
+    const tablet = 15000;
+    const mobile = 20000;
+
+    const totalLaptopPrice = laptop * lap;
+    const totalTabletPrice = tablet * tab;
+    const totalMobilePrice = mobile * mob;
+
+    const totalMoneyRequired = totalLaptopPrice + totalTabletPrice + totalMobilePrice;
+
+    return totalMoneyRequired;
+}
+console.log(calculateElectronicsBudget(2, 2, 1));
