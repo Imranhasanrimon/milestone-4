@@ -25,7 +25,7 @@ function smallFriend(frndArr) {
 }
 console.log(smallFriend(friends));
 
-//task-2____________
+//task-3____________
 function calculateElectronicsBudget(lap, tab, mob) {
     const laptop = 35000;
     const tablet = 15000;
@@ -40,3 +40,22 @@ function calculateElectronicsBudget(lap, tab, mob) {
     return totalMoneyRequired;
 }
 console.log(calculateElectronicsBudget(2, 2, 1));
+
+//task-4____________
+const phones = [
+    { model: "PhoneA", brand: "Iphone", price: 5000 },
+    { model: "PhoneB", brand: "Samsung", price: 4000 },
+    { model: "PhoneC", brand: "Oppo", price: 6000 },
+    { model: "PhoneD", brand: "Nokia", price: 3000 },
+    { model: "PhoneE", brand: "Iphone", price: 1000 },
+    { model: "PhoneF", brand: "HTC", price: 8000 },
+];
+
+function findAveragePhonePrice(phonesArray) {
+    let totalPhonePrice = 0;
+    for (let i of phonesArray) {
+        totalPhonePrice += i.price;
+    }
+    return totalPhonePrice / phonesArray.length;
+}
+console.log(findAveragePhonePrice(phones));
