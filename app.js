@@ -414,12 +414,28 @@
 //     }
 // }
 
-const vowels = ['a', 'e', 'i', 'o', 'u'];
-function reversedArray(array) {
-    let result = [];
-    for (let i of array) {
-        result.unshift(i);
-    }
-    return result;
+// const vowels = ['a', 'e', 'i', 'o', 'u'];
+// function reversedArray(array) {
+//     let result = [];
+//     for (let i of array) {
+//         result.unshift(i);
+//     }
+//     return result;
+// }
+// console.log(reversedArray(vowels));
+
+const person = {
+    name: 'mehedy',
+    address: 'rajshahi',
+    age: 23,
+    isMarried: false
 }
-console.log(reversedArray(vowels));
+const personKeysArr = Object.keys(person);
+let result = false;
+for (let key of personKeysArr) {
+    if (key === 'age') {
+        result = true;
+        break;
+    }
+}
+console.log(result);
