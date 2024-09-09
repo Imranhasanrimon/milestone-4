@@ -424,18 +424,32 @@
 // }
 // console.log(reversedArray(vowels));
 
-const person = {
-    name: 'mehedy',
-    address: 'rajshahi',
-    age: 23,
-    isMarried: false
-}
-const personKeysArr = Object.keys(person);
-let result = false;
-for (let key of personKeysArr) {
-    if (key === 'age') {
-        result = true;
-        break;
+// const person = {
+//     name: 'mehedy',
+//     address: 'rajshahi',
+//     age: 23,
+//     isMarried: false
+// }
+// const personKeysArr = Object.keys(person);
+// let result = false;
+// for (let key of personKeysArr) {
+//     if (key === 'age') {
+//         result = true;
+//         break;
+//     }
+// }
+// console.log(result);
+
+function countChar(text) {
+    const obj = {};
+
+    for (let i of text) {
+        if (obj.hasOwnProperty(i)) {
+            obj[i] += 1
+        } else {
+            obj[i] = 1;
+        }
     }
+    return obj;
 }
-console.log(result);
+console.log(countChar('imranii'));
