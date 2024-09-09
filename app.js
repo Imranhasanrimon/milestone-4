@@ -345,20 +345,37 @@
 // }
 // console.log(makeEmail(person)); 
 
-function checkBoolean(array) {
-    if (!Array.isArray(array)) {
-        return 'this is not an array';
+// function checkBoolean(array) {
+//     if (!Array.isArray(array)) {
+//         return 'this is not an array';
+//     }
+//     let count = 0;
+//     for (let i of array) {
+//         if (typeof i === 'boolean') {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+
+// const friends = [20, true, 50, false, true, false, undefined, false, 'rashed'];
+
+// console.log(checkBoolean(friends));
+
+function totalRiksawCost(passengerNumb) {
+    if (typeof passengerNumb !== 'number') {
+        return 'Invalid Input';
     }
-    let count = 0;
-    for (let i of array) {
-        if (typeof i === 'boolean') {
-            count++;
-        }
-    }
-    return count;
+    const bus = 50;
+    const micro = 15;
+    const rikshawCost = 20;
+
+    const afterBus = passengerNumb % bus;
+    const afterMicro = afterBus % micro;
+    const totalRikshawCost = rikshawCost * afterMicro;
+
+    return totalRikshawCost;
 }
 
-
-const friends = [20, true, 50, false, true, false, undefined, false, 'rashed'];
-
-console.log(checkBoolean(friends));
+console.log(totalRiksawCost(234));
