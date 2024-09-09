@@ -386,16 +386,30 @@
 // }
 // person['age'] = 23;
 // console.log(person);
-function countVowels(text) {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    let count = 0;
-    let char = '';
-    for (let i of text) {
-        if (vowels.includes(i.toLowerCase())) {
-            count++;
-            char += i;
-        }
+
+// function countVowels(text) {
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let count = 0;
+//     let char = '';
+//     for (let i of text) {
+//         if (vowels.includes(i.toLowerCase())) {
+//             count++;
+//             char += i;
+//         }
+//     }
+//     return `${count} ${char}`;
+// }
+// console.log(countVowels('IAfs;alkmran'));
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
     }
-    return `${count} ${char}`;
+    else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else {
+        console.log(i);
+    }
 }
-console.log(countVowels('IAfs;alkmran'));
