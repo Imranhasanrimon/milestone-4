@@ -335,12 +335,30 @@
 // console.log(totalPrice);
 
 // ___________Conceptual Session 03__________________ 
-const person = {
-    name: 'mehedy',
-    address: 'rajshahi'
+// const person = {
+//     name: 'mehedy',
+//     address: 'rajshahi'
+// }
+// function makeEmail(info) {
+//     const output = info.name + '@' + info.address + '.com';
+//     return output;
+// }
+// console.log(makeEmail(person)); 
+
+function checkBoolean(array) {
+    if (!Array.isArray(array)) {
+        return 'this is not an array';
+    }
+    let count = 0;
+    for (let i of array) {
+        if (typeof i === 'boolean') {
+            count++;
+        }
+    }
+    return count;
 }
-function makeEmail(info) {
-    const output = info.name + '@' + info.address + '.com';
-    return output;
-}
-console.log(makeEmail(person));
+
+
+const friends = [20, true, 50, false, true, false, undefined, false, 'rashed'];
+
+console.log(checkBoolean(friends));
