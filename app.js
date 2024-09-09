@@ -333,3 +333,14 @@
 //     totalPrice += i.price * i.quantity
 // }
 // console.log(totalPrice);
+
+// ___________Conceptual Session 03__________________ 
+const person = {
+    name: 'mehedy',
+    address: 'rajshahi'
+}
+function makeEmail(info) {
+    const output = info.name + '@' + info.address + '.com';
+    return output;
+}
+console.log(makeEmail(person));
