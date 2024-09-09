@@ -11,7 +11,7 @@ function CalculateMoney(tickets) {
     const balance = totalIncome - totalCost;
     return balance;
 }
-// console.log(CalculateMoney('s'));
+console.log(CalculateMoney('s'));
 
 //PROBLEM - 02__________
 function checkName(name) {
@@ -20,12 +20,11 @@ function checkName(name) {
     }
     let lastWord = name.slice(-1);
     let array = ['a', 'e', 'i', 'o', 'u', 'y', 'w']
-    console.log(lastWord);
     if (array.includes(lastWord)) {
         return 'Good Name';
     } else { return 'Bad Name' }
 }
-// console.log(checkName('Salman'));
+console.log(checkName('Salman'));
 
 //PROBLEM - 03__________
 function deleteInvalds(array) {
@@ -42,7 +41,7 @@ function deleteInvalds(array) {
 
 }
 const checkArray = [1, 3, NaN, 5, undefined, null, -20];
-// console.log(deleteInvalds(checkArray));
+console.log(deleteInvalds(checkArray));
 
 //PROBLEM - 04__________
 function password(object) {
@@ -65,3 +64,28 @@ const object = {
     birthYear: 1992
 }
 console.log(password(object));
+
+//PROBLEM - 05__________
+function monthlySavings(arr, livingCost) {
+    if (!Array.isArray(arr) || typeof livingCost !== 'number') {
+        return 'Invalid Input'
+    }
+    let earning = 0;
+    for (let i of arr) {
+        if (i >= 3000) {
+            i = (i / 100) * 80;
+            earning += i;
+        } else {
+            earning += i;
+        }
+    }
+    const savings = earning - livingCost;
+    if (savings >= 0) {
+        return savings;
+    } else {
+        return 'Earn More'
+    }
+}
+const income = [900, 2700, 3400];
+console.log(monthlySavings(income, 10000));
+
