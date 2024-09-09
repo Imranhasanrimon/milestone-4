@@ -380,9 +380,22 @@
 
 // console.log(totalRiksawCost(234));
 
-const person = {
-    name: 'mehedy',
-    address: 'rajshahi'
+// const person = {
+//     name: 'mehedy',
+//     address: 'rajshahi'
+// }
+// person['age'] = 23;
+// console.log(person);
+function countVowels(text) {
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    let count = 0;
+    let char = '';
+    for (let i of text) {
+        if (vowels.includes(i.toLowerCase())) {
+            count++;
+            char += i;
+        }
+    }
+    return `${count} ${char}`;
 }
-person['age'] = 23;
-console.log(person);
+console.log(countVowels('IAfs;alkmran'));
