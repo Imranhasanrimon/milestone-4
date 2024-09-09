@@ -363,19 +363,26 @@
 
 // console.log(checkBoolean(friends));
 
-function totalRiksawCost(passengerNumb) {
-    if (typeof passengerNumb !== 'number') {
-        return 'Invalid Input';
-    }
-    const bus = 50;
-    const micro = 15;
-    const rikshawCost = 20;
+// function totalRiksawCost(passengerNumb) {
+//     if (typeof passengerNumb !== 'number') {
+//         return 'Invalid Input';
+//     }
+//     const bus = 50;
+//     const micro = 15;
+//     const rikshawCost = 20;
 
-    const afterBus = passengerNumb % bus;
-    const afterMicro = afterBus % micro;
-    const totalRikshawCost = rikshawCost * afterMicro;
+//     const afterBus = passengerNumb % bus;
+//     const afterMicro = afterBus % micro;
+//     const totalRikshawCost = rikshawCost * afterMicro;
 
-    return totalRikshawCost;
+//     return totalRikshawCost;
+// }
+
+// console.log(totalRiksawCost(234));
+
+const person = {
+    name: 'mehedy',
+    address: 'rajshahi'
 }
-
-console.log(totalRiksawCost(234));
+person['age'] = 23;
+console.log(person);
