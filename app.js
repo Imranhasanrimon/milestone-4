@@ -334,7 +334,7 @@
 // }
 // console.log(totalPrice);
 
-// ___________Conceptual Session 03__________________ 
+// ___________Conceptual Session 03__________________
 // const person = {
 //     name: 'mehedy',
 //     address: 'rajshahi'
@@ -343,7 +343,7 @@
 //     const output = info.name + '@' + info.address + '.com';
 //     return output;
 // }
-// console.log(makeEmail(person)); 
+// console.log(makeEmail(person));
 
 // function checkBoolean(array) {
 //     if (!Array.isArray(array)) {
@@ -430,6 +430,8 @@
 //     age: 23,
 //     isMarried: false
 // }
+// person.toString()
+// console.log(person.toString());
 // const personKeysArr = Object.keys(person);
 // let result = false;
 // for (let key of personKeysArr) {
@@ -440,16 +442,20 @@
 // }
 // console.log(result);
 
-function countChar(text) {
-    const obj = {};
+// function countChar(text) {
+//     const obj = {};
 
-    for (let i of text) {
-        if (obj.hasOwnProperty(i)) {
-            obj[i] += 1
-        } else {
-            obj[i] = 1;
-        }
-    }
-    return obj;
-}
-console.log(countChar('imranii'));
+//     for (let i of text) {
+//         if (obj.hasOwnProperty(i)) {
+//             obj[i] += 1
+//         } else {
+//             obj[i] = 1;
+//         }
+//     }
+//     return obj;
+// }
+// console.log(countChar('imranii'));
+
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+vowels.pop()
+console.log(vowels);
