@@ -88,4 +88,93 @@ function monthlySavings(arr, livingCost) {
 }
 const income = [900, 2700, 3400];
 console.log(monthlySavings(income, 10000));
+//PROBLEM - 04__________
+function password(object) {
 
+    if (object.birthYear.toString().length <= 3 || object.birthYear === undefined || object.name === undefined || object.siteName === undefined) {
+        return 'Invalid'
+    }
+
+    const siteName = object.siteName[0].toUpperCase() + object.siteName.slice(1);
+
+    const output = siteName + '#' + object.name + '@' + object.birthYear;
+
+
+    return output
+}
+
+const object = {
+    name: 'kolimuddin',
+    siteName: 'google',
+    birthYear: 1992
+}
+console.log(password(object));
+
+//PROBLEM - 05__________
+function monthlySavings(arr, livingCost) {
+    if (!Array.isArray(arr) || typeof livingCost !== 'number') {
+        return 'Invalid Input'
+    }
+    let earning = 0;
+    for (let i of arr) {
+        if (i >= 3000) {
+            i = (i / 100) * 80;
+            earning += i;
+        } else {
+            earning += i;
+        }
+    }
+    const savings = earning - livingCost;
+    if (savings >= 0) {
+        return savings;
+    } else {
+        return 'Earn More'
+    }
+}
+const income = [900, 2700, 3400];
+console.log(monthlySavings(income, 10000));
+//PROBLEM - 04__________
+function password(object) {
+
+    if (object.birthYear.toString().length <= 3 || object.birthYear === undefined || object.name === undefined || object.siteName === undefined) {
+        return 'Invalid'
+    }
+
+    const siteName = object.siteName[0].toUpperCase() + object.siteName.slice(1);
+
+    const output = siteName + '#' + object.name + '@' + object.birthYear;
+
+
+    return output
+}
+
+const object = {
+    name: 'kolimuddin',
+    siteName: 'google',
+    birthYear: 1992
+}
+console.log(password(object));
+
+//PROBLEM - 05__________
+function monthlySavings(arr, livingCost) {
+    if (!Array.isArray(arr) || typeof livingCost !== 'number') {
+        return 'Invalid Input'
+    }
+    let earning = 0;
+    for (let i of arr) {
+        if (i >= 3000) {
+            i = (i / 100) * 80;
+            earning += i;
+        } else {
+            earning += i;
+        }
+    }
+    const savings = earning - livingCost;
+    if (savings >= 0) {
+        return savings;
+    } else {
+        return 'Earn More'
+    }
+}
+const income = [900, 2700, 3400];
+console.log(monthlySavings(income, 10000));
